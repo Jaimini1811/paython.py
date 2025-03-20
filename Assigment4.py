@@ -8,7 +8,7 @@ def calculate_grade(score):
     elif score >= 60:
         return 'D'
     else:
-        return 'E'
+        return 'F'
 
 # Ask the user for their score
 score = float(input("Enter the student's score: "))
