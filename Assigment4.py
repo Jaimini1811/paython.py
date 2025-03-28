@@ -11,7 +11,7 @@ def calculate_grade(score):
         return 'F'
 
 # Ask the user for their score
-score = float(input("Enter the student's score: "))
+score = float(input("Enter the student's score:    "))
 
 # Call the function to determine the grade
 grade = calculate_grade(score)
